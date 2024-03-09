@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.navbar {
+  background-color: #0f1111;
+  height: 60px;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.nav-logo {
+  height: 50px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+}
+.nav-logo img {
+  width: 100%;
+  height: 50px;
+}
+.border {
+  border: 1px solid transparent;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  cursor: pointer;
+  padding: 5px;
+}
+.border:hover {
+  border: 1px solid white;
+}
+/* box1 */
+.add-first {
+  color: #cccccc;
+  font-size: 13.5px;
+  /* margin-left: 15px; */
+}
+.add-icon {
+  display: flex;
+  align-items: center;
+}
+/* box3 */
+.nav-search {
+  display: flex;
+  width: 620px;
+  height: 40px;
+}
+.search-select {
+  background-color: #f3f3f3;
+  width: 50px;
+  text-align: center;
+  border: none;
+  outline: none;
+  /* border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px; */
+  border-radius: 4px 0 0 4px;
+}
+.search-input {
+  width: 100%;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  /* padding-left: 5px; */
+  text-indent: 10px;
+}
+.search-icon {
+  background-color: #febd68;
+  width: 45px;
+  border-radius: 0 4px 4px 0;
+  display: grid;
+  place-items: center;
+  color: black;
+  font-size: 19px;
+}
+span {
+  font-size: 11.2px;
+}
+.nav-second {
+  font-size: 13.6px;
+  font-weight: 700;
+}
+.nav-cart i {
+  font-size: 30px;
+}
+.nav-cart {
+  font-size: 13.6px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* panel */
+.panel {
+  background-color: #222e3e;
+  height: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+}
+.panel-ops p {
+  display: inline-flex;
+  height: 40px;
+  margin-left: 15px;
+}
+.panel-ops {
+  width: 70%;
+}
+.panel-deals {
+  font-size: 15px;
+  font-weight: 700;
+}
+/* hero */
+.hero-section {
+  background-image: url("./images/hero_image.jpg");
+  height: 350px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.hero-msg {
+  background-color: white;
+  color: black;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-bottom: 25px;
+  width: 80%;
+  font-size: 13.5px;
+}
+.hero-msg a {
+  color: #007185;
+}
+.hero-msg a:hover {
+  text-decoration: underline;
+}
+/* shop */
+.shop-section {
+  background-color: #e2e7e6;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.box {
+  height: 400px;
+  width: 23%;
+  background-color: white;
+  padding: 20px 15px;
+  margin-top: 15px;
+}
+.box-img {
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 16px 0;
+}
+.box-content p {
+  color: #007185;
+}
+/* footer */
+.foot-panel1 {
+  background-color: #364759;
+  height: 50px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  display: grid;
+  place-items: center;
+  font-size: 13.6px;
+  transition: all 0.3s;
+}
+.foot-panel1:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+.foot-panel2 {
+  background-color: #222e3e;
+  color: white;
+  height: 220px;
+  display: flex;
+  justify-content: space-evenly;
+}
+ul {
+  margin-top: 20px;
+}
+ul p {
+  font-weight: 900;
+}
+ul a {
+  display: block;
+  font-size: 13.6px;
+  margin-top: 10px;
+  color: #dddddd;
+  transition: all 0.3s;
+}
+ul a:hover {
+  color: #febd68;
+}
+.foot-panel3 {
+  border-top: 0.5px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #222e3e;
+}
+.foot-panel3 ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+.foot-panel3 ul li {
+  color: rgb(198, 198, 198);
+  font-size: 13px;
+}
+.foot-panel3 ul li:hover {
+  text-decoration: underline;
+}
